@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large IndoBERT model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Local model directories
+dashboard/models/indobert_baseline/
+dashboard/models/indobert_hpo/
+
+# OS
+.DS_Store
+Thumbs.db
