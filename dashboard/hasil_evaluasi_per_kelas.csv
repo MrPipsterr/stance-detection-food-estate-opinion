@@ -1,0 +1,13 @@
+Model,Kelas,Precision,Recall,F1
+IndoBERT (Base),Pro,0.7935,0.84,0.8161
+IndoBERT (Base),Kontra,0.6995,0.7801,0.7376
+IndoBERT (Base),Netral,0.5668,0.419,0.4818
+IndoBERT (HPO),Pro,0.7955,0.8507,0.8222
+IndoBERT (HPO),Kontra,0.7143,0.7592,0.736
+IndoBERT (HPO),Netral,0.5369,0.4308,0.4781
+SVM (Base),Pro,0.75,0.77,0.7599
+SVM (Base),Kontra,0.6758,0.7288,0.7013
+SVM (Base),Netral,0.4765,0.401,0.4355
+SVM (HPO),Pro,0.7647,0.7973,0.7807
+SVM (HPO),Kontra,0.7069,0.7199,0.7134
+SVM (HPO),Netral,0.5348,0.4862,0.5093

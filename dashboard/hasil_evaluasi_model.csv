@@ -1,0 +1,5 @@
+Model,accuracy,precision_weighted,recall_weighted,f1_weighted
+IndoBERT (Base),0.7119,0.7012,0.7119,0.7027
+IndoBERT (HPO),0.7109,0.7,0.7109,0.7034
+SVM (Base),0.7208,0.6535,0.6621,0.6566
+SVM (HPO),0.6901,0.6853,0.6901,0.6872
