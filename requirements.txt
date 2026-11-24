@@ -1,2 +1,12 @@
 streamlit>=1.39.0
 streamlit-autorefresh
+joblib
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+transformers
+torch
+scipy
