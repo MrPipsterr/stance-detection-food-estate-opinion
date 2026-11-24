@@ -1,6 +1,7 @@
 streamlit>=1.39.0
 streamlit-autorefresh
 joblib
+emoji
 scikit-learn
 pandas
 numpy
