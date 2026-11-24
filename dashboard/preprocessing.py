@@ -5,15 +5,22 @@ import nltk
 
 from nltk.corpus import stopwords
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
-
+from pathlib import Path
+import pandas as pd
 
 # =========================================================
 # LOAD SLANG DICTIONARY
 # =========================================================
 
-slang_df = pd.read_csv(
-    "data/slang_word.csv"
-)
+
+
+# Lokasi folder dashboard
+BASE_DIR = Path(__file__).resolve().parent
+
+# Lokasi file slang_word.csv
+SLANG_PATH = BASE_DIR / "data" / "slang_word.csv"
+
+slang_df = pd.read_csv(SLANG_PATH)
 
 slang_dict = dict(
     zip(
