@@ -11,5 +11,5 @@ plotly
 transformers
 torch
 scipy
-re
 nltk
+Sastrawi
